@@ -1,0 +1,81 @@
+/*Images for Cards were taken from Internet*/
+
+.content {
+    grid-area: main;
+    margin: 20px 0 20px 2px;
+	  padding: 8px;
+}
+
+.title-text{
+  margin: 2px 30px;
+}
+
+.text-medium {
+    font-family: "Open Sans", sans-sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    color: #ecf8f1;
+}
+
+.cards {
+	  list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:50px;
+    padding: 0;
+}
+
+.card-content {
+	width: 225px;
+	height: 200px;
+	background-color: #c2d6d6;
+  cursor: pointer;
+	margin: 10px;
+	padding: 2px;
+}
+
+.img-fit {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-title {
+  margin: 20px;
+  color: #333;
+
+}
+
+@media (min-width:600px) and (max-width:1100px) {
+  .content {
+    grid-area: main;
+    margin-left: 160px;
+    margin-top: -35px;
+    font-size: 2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width:1101px) {
+  .content {
+    grid-area: main;
+    margin-left: 160px;
+    margin-top: -35px;
+    font-size: 2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}

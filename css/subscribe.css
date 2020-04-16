@@ -1,0 +1,90 @@
+/*Used w3schools to do the styling for subscription form*/
+
+@import url("../css/blogpost.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: 100px 10%;
+  border-radius: 5px;
+  background-color: #f2f2f3;
+  padding: 10px 10px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-left: -35px;
+  margin-top:10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.label-col {
+  float: left;
+  width: 25%;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.more-col {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Responsive Form - for screens less than 600px wide*/
+@media screen and (max-width: 600px) {
+
+  .container {
+    width: 100%;
+    margin:auto;
+  }
+
+  .label-col {
+    width: 100%;
+    text-align: left;
+
+  }
+
+  .more-col {
+    width: 100%;
+    text-align: right;
+  }
+
+  input[type=submit] {
+    width: 80%;
+    margin: 100px 20px;
+  }
+}

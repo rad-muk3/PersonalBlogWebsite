@@ -1,0 +1,90 @@
+/* This class adjusts the sidebar grid area */
+.sidebar {
+  grid-area: sd;
+	margin-left: 50px;
+	margin-top: -50px;
+}
+
+.post-links {
+	line-height: 3.0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0rem;
+}
+
+/*Show the buttons on small screens*/
+.button {
+    background-color: #008CBA;
+		border: none;
+		border-radius: 4px;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 1rem;
+		padding: 8px 8px;
+		width: 200px;
+}
+
+.button-outline {
+		margin: 20px 0 20px 2px;
+	  padding: 8px;
+		display: block;
+		width: 250px;
+    line-height: 1.5;
+    background-color: white;
+	  color: blue;
+	  border: 1px solid #008CBA;
+}
+
+/*Medium Screens*/
+@media (min-width:600px)and (max-width:1100px){
+
+	.button {
+		margin-top: 20px;
+		margin-left: 5px;
+		background-color: #008CBA;
+		border: none;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 1rem;
+		padding: 8px 8px;
+		line-height: 2.0;
+		width: 200px;
+	}
+
+	.button-outline {
+		margin-top: 20px;
+		width: 220px;
+		line-height: 2.0;
+		background-color: white;
+	  color: blue;
+	  border: 1px solid #008CBA;
+	}
+}
+
+/*Show the buttons in small very large screens */
+@media (min-width:1101px) {
+	.button{
+		margin-top: 20px;
+		margin-left: 5px;
+		background-color: #008CBA;
+		border: none;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 1rem;
+		padding: 8px 8px;
+		line-height: 2.0;
+		width: 200px;
+	}
+
+	.button-outline {
+		margin-top: 20px;
+		width: 220px;
+		line-height: 2.0;
+		background-color: white;
+	  color: blue;
+	  border: 1px solid #008CBA;
+	}
+
+}
