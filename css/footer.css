@@ -1,83 +1,93 @@
 /* This class adjusts the footer grid area */
-
 .footer {
-	grid-area: ft;
-	max-width: 100%;
-	height: 13%;
+  grid-area: ft;
+  max-width: 100%;
+  height: 13%;
   background-color: #99927d;
-	color: #fff;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	margin-top: 35px;
-	margin-left: 80px;
-	text-align: center;
-	border-radius: 5px;
+  color: #fff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 35px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .msg-footer {
-	margin:4px 50px 4px 2px;
+  margin: 4px 50px 4px 2px;
   text-align: center;
 }
 
 .ico-block {
-	margin-right: 26px;
-	padding: 7% 15%;
+  margin-right: 26px;
+  padding: 7% 15%;
   position: relative;
-	display: inline;
+  display: inline;
 }
 
-.footer #soico-img {
-	border-radius: 100%;
-	width: 15px;
-	height: 15px;
+.footer .soico-img {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
 }
 
 /* Using Media Queries for responsiveness */
 @media (min-width:600px) and (max-width:1100px) {
   .footer {
-			grid-area: ft;
-			width: 100%;
-			height: 50px;
-			background-color: #99927d;
-			color: #fff;
-			font-family: Verdana, Arial, Helvetica, sans-serif;
-			padding: 2px;
-			margin-top: 35px;
-			margin-left: 40px;
-			margin-bottom: 5px;
-			text-align: center;
-			border-radius: 5px;
-		}
-
-		.footer #soico-img {
-			border-radius: 100%;
-			width: 15px;
-			height: 15px;
-			margin-top: -10px;
-		}
-	}
-
-
-@media (min-width:1101px) {
-    .footer {
-			grid-area: ft;
-			width: 100%;
-			height: 50%;;
-			background-color: #99927d;
-			color: #fff;
-			font-family: Verdana, Arial, Helvetica, sans-serif;
-			padding: 1%;
-			margin-top: 5%;
-			margin-left: 40px;
-			margin-bottom: 1%;
-			text-align: center;
-			border-radius: 5px;
-	}
-
-	.footer #soico-img {
-		border-radius: 100%;
-		width: 15px;
-		height: 15px;
-		margin-top: -10px;
+    grid-area: ft;
+    width: 100%;
+    height: 50px;
+    background-color: #99927d;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 2px;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
   }
 
+  .footer, .soico-img {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-top: -10px;
+  }
+
+  .msg-footer {
+    margin: 4px 80px 4px 2px;
+    text-align: center;
+  }
+
+  .ico-block {
+    margin-right: 26px;
+    padding: 7% 15%;
+    position: relative;
+    display: inline-block;
+  }
+}
+
+@media (min-width:1101px) {
+  .footer {
+    grid-area: ft;
+    width: 100%;
+    height: 50%;
+    ;
+    background-color: #99927d;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .footer .soico-img {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-top: -10px;
+  }
 }

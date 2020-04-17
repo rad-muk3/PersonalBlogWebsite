@@ -1,5 +1,4 @@
 /*Used w3schools to do the styling for subscription form*/
-
 @import url("../css/blogpost.css");
 
 * {
@@ -17,11 +16,10 @@
 input[type=text] {
   width: 100%;
   margin-left: -35px;
-  margin-top:10px;
+  margin-top: 10px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-
 }
 
 label {
@@ -66,16 +64,14 @@ input[type=submit]:hover {
 
 /*Responsive Form - for screens less than 600px wide*/
 @media screen and (max-width: 600px) {
-
   .container {
     width: 100%;
-    margin:auto;
+    margin: auto;
   }
 
   .label-col {
     width: 100%;
     text-align: left;
-
   }
 
   .more-col {

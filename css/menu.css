@@ -2,7 +2,6 @@
 #nav-container {
   width: 1200px;
   margin: 0 auto;
-
 }
 
 .nav-bar {
@@ -28,6 +27,6 @@
 }
 
 .m-items:hover {
-   color: #ef8172;
-   cursor: pointer;
+  color: #ef8172;
+  cursor: pointer;
 }
